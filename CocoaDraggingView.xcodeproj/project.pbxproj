@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB26C021C85827E005E4BBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB26C011C85827E005E4BBA /* AppDelegate.m */; };
+		5CB26C051C85827E005E4BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB26C041C85827E005E4BBA /* main.m */; };
+		5CB26C081C85827E005E4BBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB26C071C85827E005E4BBA /* ViewController.m */; };
+		5CB26C0A1C85827E005E4BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB26C091C85827E005E4BBA /* Assets.xcassets */; };
+		5CB26C0D1C85827E005E4BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB26C0B1C85827E005E4BBA /* Main.storyboard */; };
+		5CB26C161C858590005E4BBA /* DraggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB26C151C858590005E4BBA /* DraggingView.m */; };
+		5CB26C181C8592E7005E4BBA /* Drop-Files-Here-extra.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB26C171C8592E7005E4BBA /* Drop-Files-Here-extra.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CB26BFD1C85827E005E4BBA /* CocoaDraggingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaDraggingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB26C001C85827E005E4BBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CB26C011C85827E005E4BBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CB26C041C85827E005E4BBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB26C061C85827E005E4BBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CB26C071C85827E005E4BBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CB26C091C85827E005E4BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB26C0C1C85827E005E4BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CB26C0E1C85827E005E4BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB26C141C858590005E4BBA /* DraggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingView.h; sourceTree = "<group>"; };
+		5CB26C151C858590005E4BBA /* DraggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingView.m; sourceTree = "<group>"; };
+		5CB26C171C8592E7005E4BBA /* Drop-Files-Here-extra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop-Files-Here-extra.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB26BFA1C85827E005E4BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB26BF41C85827D005E4BBA = {
+			isa = PBXGroup;
+			children = (
+				5CB26BFF1C85827E005E4BBA /* CocoaDraggingView */,
+				5CB26BFE1C85827E005E4BBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB26BFE1C85827E005E4BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB26BFD1C85827E005E4BBA /* CocoaDraggingView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB26BFF1C85827E005E4BBA /* CocoaDraggingView */ = {
+			isa = PBXGroup;
+			children = (
+				5CB26C001C85827E005E4BBA /* AppDelegate.h */,
+				5CB26C011C85827E005E4BBA /* AppDelegate.m */,
+				5CB26C061C85827E005E4BBA /* ViewController.h */,
+				5CB26C071C85827E005E4BBA /* ViewController.m */,
+				5CB26C141C858590005E4BBA /* DraggingView.h */,
+				5CB26C151C858590005E4BBA /* DraggingView.m */,
+				5CB26C091C85827E005E4BBA /* Assets.xcassets */,
+				5CB26C0B1C85827E005E4BBA /* Main.storyboard */,
+				5CB26C0E1C85827E005E4BBA /* Info.plist */,
+				5CB26C171C8592E7005E4BBA /* Drop-Files-Here-extra.png */,
+				5CB26C031C85827E005E4BBA /* Supporting Files */,
+			);
+			path = CocoaDraggingView;
+			sourceTree = "<group>";
+		};
+		5CB26C031C85827E005E4BBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB26C041C85827E005E4BBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB26BFC1C85827E005E4BBA /* CocoaDraggingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB26C111C85827E005E4BBA /* Build configuration list for PBXNativeTarget "CocoaDraggingView" */;
+			buildPhases = (
+				5CB26BF91C85827E005E4BBA /* Sources */,
+				5CB26BFA1C85827E005E4BBA /* Frameworks */,
+				5CB26BFB1C85827E005E4BBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaDraggingView;
+			productName = CocoaDraggingView;
+			productReference = 5CB26BFD1C85827E005E4BBA /* CocoaDraggingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB26BF51C85827D005E4BBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander Yolkin";
+				TargetAttributes = {
+					5CB26BFC1C85827E005E4BBA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5CB26BF81C85827D005E4BBA /* Build configuration list for PBXProject "CocoaDraggingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB26BF41C85827D005E4BBA;
+			productRefGroup = 5CB26BFE1C85827E005E4BBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB26BFC1C85827E005E4BBA /* CocoaDraggingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB26BFB1C85827E005E4BBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB26C0A1C85827E005E4BBA /* Assets.xcassets in Resources */,
+				5CB26C0D1C85827E005E4BBA /* Main.storyboard in Resources */,
+				5CB26C181C8592E7005E4BBA /* Drop-Files-Here-extra.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB26BF91C85827E005E4BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB26C081C85827E005E4BBA /* ViewController.m in Sources */,
+				5CB26C051C85827E005E4BBA /* main.m in Sources */,
+				5CB26C021C85827E005E4BBA /* AppDelegate.m in Sources */,
+				5CB26C161C858590005E4BBA /* DraggingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CB26C0B1C85827E005E4BBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB26C0C1C85827E005E4BBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CB26C0F1C85827E005E4BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CB26C101C85827E005E4BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CB26C121C85827E005E4BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaDraggingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoolla.com.CocoaDraggingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CB26C131C85827E005E4BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaDraggingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoolla.com.CocoaDraggingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB26BF81C85827D005E4BBA /* Build configuration list for PBXProject "CocoaDraggingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB26C0F1C85827E005E4BBA /* Debug */,
+				5CB26C101C85827E005E4BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB26C111C85827E005E4BBA /* Build configuration list for PBXNativeTarget "CocoaDraggingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB26C121C85827E005E4BBA /* Debug */,
+				5CB26C131C85827E005E4BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB26BF51C85827D005E4BBA /* Project object */;
+}
